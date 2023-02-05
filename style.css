@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(253, 142, 15);
+}
+
+header {
+    background-color: rgb(179, 100, 11);
+    /*padding: 0.7rem;*/
+}
+
+header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 93vh;
+}
+
+main > div {
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+    border: white solid 1px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div > h1 {
+    padding: 0.3rem;
+
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.moeda1 {
+    background-color: rgba(180, 90, 6, 0);
+}
+
+.moeda2 {
+    background-color: rgba(165, 42, 42, 0);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+    background-color: rgb(179, 100, 11);
+}
+
+footer > p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    display: block;
+    background-color: rgba(255, 166, 0, 0.76);
+    color: white;
+
+    border-radius: 5px;
+    border-style: none;
+    border-color: white;
+
+    margin: auto;
+    width: 70%;
+    height: 12%;
+
+    font-size: 6rem;
+
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: white solid 3px;
+}
+
+input[type="button"] {
+    display: block;
+
+    margin: auto;
+    width: 25%;
+    height: 5%;
+
+    background-color: rgba(124, 79, 11, 0.719);
+    color: white;
+
+    border-radius: 8px;
+    border: none;
+
+    text-transform: uppercase;
+    font-size: 2rem;
+}
